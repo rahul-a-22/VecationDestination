@@ -9,14 +9,15 @@ img{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: #333;
+    color: rgb(189, 234, 244);
+    background-color: #9C9691;
 }
 
 header{
     padding: 50px;
-    background-color: cornflowerblue;
+    background-color: rgb(77, 79, 89);
     text-align: center;
-    color: white;
+    color: rgb(189, 234, 244);
     margin-bottom: 20px;
 }
 
@@ -48,19 +49,39 @@ h1,h2,p{
 
 label{
     display: block;
+    color: rgb(189, 234, 244);
 }
 
 input,textarea, #destination_detail_form button{
     display: block;
     width: 100%;
     margin-bottom: 1em;
+    color: rgb(189, 234, 244);
+    background-color: rgb(77, 79, 89);
     border: 1px solid #666;
     padding: 10px;
     box-sizing: border-box;
 }
 
+#destination_detail_form button:hover{
+    cursor: pointer;
+    background-color: rgb(103, 106, 120);
+}
+
 .card{
+    color: rgb(33, 130, 155);
     padding: 20px;
-    background-color: #efefef;
+    background-color: rgb(226, 224, 216);
     margin-bottom: 20px;
+}
+
+.card button{
+    color: white;
+    font-weight: 10;
+    background-color: rgb(77, 79, 89);
+}
+
+.card button:hover{
+    cursor: pointer;
+    background-color: rgb(103, 106, 120);
 }
